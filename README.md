@@ -29,3 +29,8 @@
 发现获取`token`、`secret`、`opendoor`三步的请求头略有差异，构造每个步骤的请求头。
 
 获取对应的token后，构建URL+token，将`微信OpenID`、`houseHostId`、`secret`包含在requests的请求体中，以json发送即可开门。
+
+## 手机应用
+安卓手机可使用`pydroid`运行
+
+苹果手机可编写`快捷指令`实现相同效果
