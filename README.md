@@ -30,6 +30,14 @@
 
 获取对应的token后，构建URL+token，将`微信OpenID`、`houseHostId`、`secret`包含在requests的请求体中，以json发送即可开门。
 
+### 运行
+使用`vscode`直接运行，或在py文件的同目录创建一个批处理
+```batch
+@echo off
+python open_the_door.py
+pause
+```
+
 ## 手机应用
 安卓手机可使用`pydroid`运行
 
