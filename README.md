@@ -19,9 +19,9 @@
 
 随后找到捕获的小程序流量，选择Filter Now，选择show only process = XXXX后，仅显示对应小程序的请求。
 
-至此抓包过程结束，将fiddler的内容保存（file→save→all session）。
+至此抓包过程结束，为方便后续查看，可将fiddler的内容保存（file→save→all session）。
 
-替换程序内`抓包获取`的对应内容。
+⚠ 最后，替换程序内`抓包获取`的对应内容。
 
 ### 分析请求内容
 通过分析发现，进入小程序后，会立即获得房主的个人信息（姓名、位置、houseHostId），并请求账号的token
